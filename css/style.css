@@ -35,3 +35,24 @@
     font-size: 16px;
   }
 }
+
+.fv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1440 / 780;
+  background-image: url(../images/fv-img.jpg);
+  background-size: contain;
+  @media (max-width: 768px) {
+    background-image: url(../images/fv-img-sp.jpg);
+    aspect-ratio: 375 / 650;
+  }
+}
+
+.fv_title {
+  font-size: 60px;
+  color: gray;
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
+}
