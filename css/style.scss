@@ -56,3 +56,34 @@
     font-size: 40px;
   }
 }
+
+.story {
+  padding-top: 90px;
+  background-color: #edebe9;
+}
+
+.story_inner {
+  max-width: 920px;
+  margin-inline: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.story_title {
+  font-size: 46px;
+  color: #170a01;
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+.story_text {
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 2.25;
+  @media (max-width: 768px) {
+    line-height: 2.14;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
